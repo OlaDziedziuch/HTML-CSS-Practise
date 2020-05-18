@@ -1,0 +1,164 @@
+body {
+	background-color:#FFFFFF;
+	font-family:'Open Sans', sans-serif;
+	font-size:15px;
+	color:#339966;
+}
+
+a:link {
+	text-decoration: none;
+  color:#003300;
+}
+
+a:visited {
+    color:#003300;
+}
+
+a:hover {
+    color:#003300;
+}
+
+a:active {
+	color:#003300;
+}
+
+.container {
+	width: 1000px;
+	padding:0;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:25px;
+	text-align:center;
+}
+
+.postcard {
+	display:inline-block;
+	width:475px;
+	padding:5px;
+	text-align:center;
+}
+
+.postcard p {
+	padding:5px;
+	margin-top:10px;
+}
+
+h1 {
+	margin-top:45px;
+	margin-bottom:30px;
+	color:#339900;
+	font-size:28px;
+	font-weight:700;
+	letter-spacing:5px;
+	text-transform:uppercase;
+}
+
+/* Hover effects */
+
+.photo1 {
+	width:475px;
+	transition:all 0.2s ease-in-out;
+}
+
+.photo1:hover {
+	transform:scale(0.9);
+	-webkit-transform:scale(0.9);
+	-ms-transform:scale(0.9);
+	opacity:0.1;
+}
+
+.photo2 {
+	width:475px;
+	transition: transform .2s ease-in-out;
+}
+
+.photo2:hover {
+	transform: scale(0.95) rotate(-5deg);
+	-webkit-transform: scale(0.95) rotate(-5deg);
+	-ms-transform: scale(0.95) rotate(-5deg);
+}
+
+.photo3 {
+	width:475px;
+}
+
+.photo3 {
+	position:relative;
+	width:475px;
+	height:475px;
+	transition:skew 0.2s linear;
+}
+
+.photo3:hover {
+	transform:skew(10deg);
+	-web-kit-transform:skew(10deg);
+	-ms-transform:skew(10deg);
+}
+
+.photo4 {
+	width:475px;
+}
+
+.overlay2 {
+	position:relative;
+	width:475px;
+	height:475px;
+}
+
+.overlay2 .link {
+	position:absolute;
+	display:block;
+	width:100%;
+	height:100%;
+	background-color:#66cccc;
+	left:0;
+	top:0;
+	opacity:0;
+	transition:opacity 0.5s ease-in-out;
+}
+
+.overlay2:hover .link {
+	opacity:0.9;
+}
+
+.icon {
+	display:block;
+	position:relative;
+	top:25%;
+	font-size:72px;
+}
+.icon p {
+	font-size:20px;
+}
+
+.photo5 {
+	width:475px;
+	height:475px;
+	overflow:hidden;
+}
+
+.photo5 img {
+	transition:all .5s ease-in-out;
+}
+
+.photo5:hover img {
+	transform:scale(1.15) rotate(360deg);
+	-web-kit-transform:scale(1.15) rotate(360deg);
+	-ms-transform:scale(1.15) rotate(360deg);
+}
+
+.photo6 {
+	width:475px;
+	height:475px;
+	overflow:hidden;
+}
+
+.photo6 img {
+	transition:all .7s ease-in-out;
+}
+
+.photo6:hover img {
+	transform:scale(0.6) rotate(-5deg);
+	-web-kit-transform:scale(0.6) rotate(-5deg);
+	-ms-transform:scale(0.6) rotate(-5deg);	
+}

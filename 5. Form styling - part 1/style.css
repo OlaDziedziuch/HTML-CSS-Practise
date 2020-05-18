@@ -1,0 +1,64 @@
+body {
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url(img/tlo.png);
+	font-size:20px;
+}
+
+#container {
+	width:300px;
+	padding:50px;
+	margin-top:100px;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:white;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(255,255,255,0.5);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(255,255,255,0.5);
+	box-shadow: 3px 3px 30px 5px rgba(255,255,255,0.5);
+}
+
+input[type=text],
+input[type=password]{
+	width:300px;
+	padding:10px;
+	margin-top:10px;
+	background-color:#efefef;
+	color:#666;
+	font-size:20px;
+	border:2px solid #ddd;
+	border-radius:5px;
+	box-sizing:border-box;
+	outline:none;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+	background-color:#FCF2F8;
+	border:2px solid #EC407A;
+	-webkit-box-shadow: 0px 0px 2px 3px rgba(14,42,230,0.2);
+	-moz-box-shadow: 0px 0px 2px 3px rgba(14,42,230,0.2);
+	box-shadow: 0px 0px 5px 2px rgba(14,42,230,0.2);
+}
+
+input[type=submit]{
+	width:300px;
+	padding:15px 10px;
+	margin-top:20px;
+	background-color:#EC407A;
+	color:#FFF;
+	font-size:20px;
+	border:none;
+	border-radius:5px;
+	cursor:pointer;
+	letter-spacing:3px;
+	outline:none;
+}
+
+input[type=submit]:focus {
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(14,42,230,0.2);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(14,42,230,0.2);
+	box-shadow: 0px 0px 15px 5px rgba(14,42,230,0.2);
+}
+
+input[type=submit]:hover{
+	background-color:#DB306A;
+}

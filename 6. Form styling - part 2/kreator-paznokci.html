@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8"/>
+	<title>Kreator stylizacji paznokci</title>
+	<meta name="description" content="Stylizacja paznokci"/>
+	<meta name="keywords" content="stylizacja paznokci, paznokcie, nails, hybryda, żel, akryl, manicure, stylistka"/>
+	<meta http-equiv="X-UA-Compatible" content="IE= edge,chrome=1"/>
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Marcellus+SC&display=swap&subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+	<header><h1>Kreator stylizacji paznokci</h1></header>
+	<main>
+		<article><form class="stylin_form" action="zapis.php" method="post">
+			<fieldset><legend>Usługa</legend>
+				<div class="col"><img src="img/manicure_1.png" /><input type="checkbox" id="manicure" value="1" name="usluga"><label for="manicure">Manicure</label></div>
+				<div class="col"><img src="img/pedicure.png" /><input type="checkbox" id="pedicure" value="2" name="usluga"><label for="pedicure">Pedicure</label></div>
+				<div class="col"><img src="img/mip_1.png" /><input type="checkbox" id="mip" value="3" name="usluga"><label for="mip">Manicure i pedicure</label></div>
+			</fieldset>
+				<div class="row">
+				<div class="custom_select"><label for="nails"><h3>Wybrana stylizacja:</h3></label>
+					<select id="nails" name="nails[]" multiple size="4">
+						<option value="1" selected>Manicure hybrydowy</option>
+						<option value="2">Manicure hybrydowy z bazą wzmacniającą</option>
+						<option value="3">Stylizacja żelowa na naturalnej płytce</option>
+						<option value="4">Przedłużenie paznokci na formie</option>
+						<option value="5">Akryl</option>
+						<option value="6">Monofaza</option>
+						<option value="7">Manicure japoński</option>
+						<option value="8">Manicure klasyczny</option>
+						<option value="9">Manicure biologiczny</option>
+				</select>
+			</div>
+			<div class="row">
+				<label for="kształt"><h3>Kształt paznokcia: </h3></label>
+				<select id="shapecol">
+					<option value="1">owalny</option>
+					<option value="2"selected>migdał</option>
+					<option value="3">kwadratowy</option>
+					<option value="4">trumienka</option>
+					<option value="5">spiczasty</option>
+				</select>
+			</div>
+			<div class="row">
+				<label for="kolor"><h3>Kolor paznokcia: </h3></label>
+				<select id="shapecol">
+					<option value="1">czerwony</option>
+					<option value="2">niebieski</option>
+					<option value="3">zielony</option>
+					<option value="4">czarny</option>
+					<option value="5" selected>nude</option>
+				</select>
+			</div>
+				<fieldset>
+				<legend>Wybierz zdobienie</legend>
+					<div id="col2">
+						<div class="col2">
+							<div><input type="checkbox" id="baby" value="1" name="zdobienie[]" disabled checked><label for="baby">Baby boomer</label></div>
+							<div><input type="checkbox" id="french" value="2" name="zdobienie[]"><label for="french">French</label></div>
+							<div><input type="checkbox" id="sniezka" value="3" name="zdobienie[]"><label for="sniezka">Efekt Królewny Śnieżki</label></div>
+							<div><input type="checkbox" id="syrenka" value="4" name="zdobienie[]"><label for="syrenka">Efekt Syrenki</label></div>
+						</div>
+						<div class="col2">
+							<div><input type="checkbox" id="folia" value="5" name="zdobienie[]"><label for="folia">Folia transferowa</div>
+							<div><input type="checkbox" id="krysztalki" value="6" name="zdobienie[]"><label for="krysztalki">Kryształki</div>
+							<div><input type="checkbox" id="brokat" value="7" name="zdobienie[]"><label for="brokat">Brokat</div>
+							<div><input type="checkbox" id="cyrkonia" value="8" name="zdobienie[]"><label for="cyrkonia">Wydruk</div>
+						</div>
+						<div class="col2">
+							<div><input type="checkbox" id="kocie" value="9" name="zdobienie[]"><label for="kocie">Kocie oko</div>
+							<div><input type="checkbox" id="negative" value="10" name="zdobienie[]"><label for="negative">Negative Space</div>
+							<div><input type="checkbox" id="wydruk" value="11" name="zdobienie[]"><label for="wydruk">Wydruk z drukarki</div>
+							<div><input type="checkbox" id="wzor" value="12" name="zdobienie[]"><label for="wzor">Wybrany wzór</div>
+						</div>
+					</div>
+				</fieldset>
+				<div class="contact">
+					<legend>Zapisz się</legend>
+						<label for="date">Termin:</label>
+						<input type="date" id="date" name="date"  />
+						<label for="name">Imię:</label>
+						<input type="text" id="name" name="name" />
+						<label for="phone">Kontakt:</label>
+						<input type="phone" id="phone" name="phone" placeholder="601-102-203" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" />
+						<label for="submit"></label>
+						<legend><button class="button" style="vertical-align:middle"><span> Wyślij zgłoszenie</span></button></legend>
+				</div>
+			</form>
+		</article>
+	</main>
+</body>
+</html>

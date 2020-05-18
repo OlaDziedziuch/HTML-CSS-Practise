@@ -1,0 +1,156 @@
+body {
+	background-color:#666666;
+	color:#ffffff;
+	font-family: 'Catamaran', sans-serif;
+	font-size:15px;
+}
+
+#container {
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.rectangle {
+	width:1200px;
+	margin-bottom:10px;
+	margin-top:10px;
+	line-height:150%;
+	text-align:center;
+}
+
+.square {
+	float: left;
+	width: 50%;
+}
+
+#logo {
+	float:left;
+	width:600px;
+	margin-top:5px;
+	margin-bottom:5px;
+	font-family: 'Raleway', sans-serif;
+	font-size:35px;
+	text-align:left;
+}
+
+#time {
+	float:left;
+	margin-top:5px;
+	margin-bottom:5px;
+	font-family: 'Raleway', sans-serif;
+	font-size:35px;
+	text-align:left;
+}
+
+.tile1 {
+	float:left;
+	width:170px;
+	height:82px;
+	padding:30px;
+	margin:10px;
+	background-color:#3095d3;
+	font-size:25px;
+	text-align:center;
+}
+
+.tile1:hover {
+	background-color:#2084c2;
+}
+
+.tile2 {
+	float:left;
+	width:170px;
+	height:82px;
+	padding:30px;
+	margin:10px;
+	background-color:#cc3399;
+	font-size:25px;
+	text-align:center;
+}
+
+.tile2:hover {
+	background-color:#bb4488;
+}
+
+.tile3 {
+	width:420px;
+	height:82px;
+	padding:30px;
+	margin:10px;
+	background-color:#66cccc;
+	font-size:25px;
+	text-align:center;
+}
+
+.tile3:hover {
+	background-color:#55bbbb;
+}
+
+.tile4 {
+	float:left;
+	width:420px;
+	height:244px;
+	padding:30px;
+	margin:10px;
+	background-color:#651fff;
+	font-size:14px;
+	text-align:justify;
+}
+
+.tile4:hover {
+	background-color:#540eee;
+}
+
+.li {
+	float:left;
+	width:146px;
+	height:142px;
+	margin:10px;
+	background-color:#2867b2;
+	font-size:90px;
+	text-align:center;
+}
+
+.li:hover {
+	background-color:#1756a1;
+}
+
+.git {
+	float:left;
+	width:146px;
+	height:142px;
+	margin:10px;
+	background-color:#f1502f;
+	font-size:90px;
+	text-align:center;
+}
+
+.git:hover {
+	background-color:#e0401e;
+}
+
+.yt {
+	float:left;
+	width:146px;
+	height:142px;
+	margin:10px;
+	background-color:#c4302b;
+	font-size:90px;
+	text-align:center;
+}
+
+.yt:hover {
+	background-color:#b3201a;
+}
+
+a.tilelink {
+	display:block;
+	color:#ffffff;
+	text-decoration:none;
+}
+
+a.sociallink {
+	color:#ffffff;
+	text-decoration:none;
+}

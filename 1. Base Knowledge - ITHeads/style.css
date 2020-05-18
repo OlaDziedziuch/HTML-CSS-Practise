@@ -1,0 +1,180 @@
+body{
+	margin:0 !important;
+	font-family: 'Libre Franklin', sans-serif;
+	background-color:#ffffff;
+	font-size:14px;
+}
+
+.wrapper {
+	width:100%;
+}
+
+.header {
+	width:100%;
+	padding:40px 0;
+}
+
+.logo {
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-size:56px;
+}
+
+.logo2 {
+	padding-bottom:20px;
+	background-color: white;
+	font-family: 'Rock Salt', cursive;
+	font-size:20px;
+}
+
+.nav {
+	position: sticky;
+	top:0;
+	width:100%;
+	padding: 20px 0;
+	background-color:#95C7FF;
+	font-size:20px;
+	text-align:center;
+	border-top:1px solid #67A1FF;
+	border-bottom:1px solid #67A1FF;
+}
+
+.content {
+	padding-top:10px;
+	margin-left:60px;
+	margin-right:60px;
+	text-align:justify;
+}
+
+.jo {
+	text-align:center;
+}
+
+.jod {
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.backend {
+	float:left;
+	width:250px;
+	height:125px;
+	padding:0 !important;
+	margin:0 !important;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#8CFF8F;
+	color: #222222;
+	font-size:20px;
+}
+
+.backend:hover {
+	background-color:#9BEE7E;
+}
+
+.frontend {
+	float:left;
+	width:250px;
+	height:125px;
+	background-color:#88E9FF;
+	color:#222222;
+	font-size:20px;
+}
+
+.frontend:hover {
+	background-color:#77D8EE;
+}
+
+.testing {
+	float:left;
+	width:250px;
+	height:125px;
+	background-color:#FBFF8D;
+	color:#222222;
+	font-size:20px;
+}
+
+.testing:hover {
+	background-color:#EAEE7C;
+}
+
+.analyst {
+	float:left;
+	width:250px;
+	height:125px;
+	background-color:#FF8C8C;
+	color:#222222;
+	font-size:20px;
+}
+
+.analyst:hover {
+	background-color:#EE7B7B;
+}
+
+.footer {
+	padding:30px;
+	font-size:15px;
+	text-align:center;
+}
+
+ol {
+	display:inline-block;
+	height:35px;
+	line-height:200%;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	font-size:18px;
+}
+
+ol a {
+	display:block;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+ol > li {
+	float:left;
+	width:150px;
+	height:40px;
+	border-right: 1px dashed #FFFFFF;
+}
+
+ol > li:first-child {
+	border-left: 1px dashed #FFFFFF;
+}
+
+ol > li:hover {
+	background-color:#76B3FF;
+}
+
+ol > li:hover > a {
+	color:#FFFFFF
+}
+
+ol > li > ul {
+	display:none;
+	height:40px;
+	padding:0;
+	margin:0;
+	font-size:16px;
+	list-style-type:none;
+}
+
+ol >li:hover > ul {
+	display:block;
+}
+
+ol > li > ul > li {
+	position:relative;
+	z-index:100;
+	border-top: 1px dashed #FFFFFF;
+	background-color:#76B3FF;
+}
+
+ol > li > ul > li:hover {
+	background-color:#65A2EE;
+}
